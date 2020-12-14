@@ -25,8 +25,6 @@
 - Updating the remote repository with your local repository
     > $ git push
 
-<br/>
-
 ## How to use branches
 
 A branch represents an independent line of development.  
@@ -54,16 +52,12 @@ When the work is done, the new commits can be integrated into the original branc
 - Deleting remote branch
     > $ git push --delete origin your-branch-name
 
-<br/>
-
 ## Pull requests
 
 Pull requests are a way to initiate discussions around a branch.  
 They give other developers the opportunity to contribute to the new feature before it gets integrated into the official project.
 
 <img src="images/pull-request.png" width="450" />
-
-<br/>
 
 1) In your repository GUI, go to "Pull requests"
 2) Select "New pull request"
@@ -78,7 +72,14 @@ They give other developers the opportunity to contribute to the new feature befo
 5) Create pull request
 6) Once there's nothing more to be done, the feature can be merged by the assigners.
 
-<br/>
+## Protected branches
+
+Protected branches is a powerful tool to enforce certain workflows in the repository.   
+If you're the repository owner or have admin permissions, you can customize brach protections in order to:
+- prevent branches from being deleted
+- prevent direct commits (force push) to the branch
+- require pull request reviews before merging
+- require status check before merging
 
 ## References
 
