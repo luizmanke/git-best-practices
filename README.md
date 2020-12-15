@@ -108,6 +108,26 @@ Maintenance or _hotfix_ branches are used to quickly patch production releases. 
 This allows the team to address issues without interrupting the rest of the workflow or waiting for the next release cycle.  
 importante: this is the only branch that should fork directly from _master_.
 
+## How to write issues
+
+Issues are a way to collect users feedback, report software bugs, and organize tasks you'd like to acomplish. But while their simple structure makes it easy for others to weigh in, issues are really only as good as you make them.
+
+Here are some tips on writing issues:
+
+- avoid duplication: search for similar issues before creating a new one
+- one issue per issue: each issue must contain only one task / problem
+- short titles: further explanation can be done in the issue comment
+- formatting: issue comment is done using markdown so it can be well-formatted
+- reproduction: if possible, provide instructions to reproduce the bugs
+- information: attach links and screenshots whenever possible
+- references: use "@" in a comment to notify someone to join the discussion
+- labels: link issues to specific labels
+- milestones: link issues to specific miletones
+- assignees: people who could work on the issue
+
+A great way to remind people on how to create good issues is to configure issue templates.  
+Some examples can be found in this repository under templates/issue_templates/.
+
 ## References
 
 - [Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
