@@ -128,6 +128,43 @@ Here are some tips on writing issues:
 A great way to remind people on how to create good issues is to configure issue templates.  
 Some examples can be found in this repository under templates/issue_templates/.
 
+## How to write commit messages
+
+A well-crafted Git commit message is the best way to communicate context about a change to other developers working on that project, and indeed, to your future self.
+
+Some benefits:  
+1. Pull-requests are clearer and faster to review
+2. The git-log will be a source of valuable information
+3. Going back in time is easy
+
+To create a useful revision history, teams should first agree on a commit message convention to use.
+
+> <type\>: <description\>  
+[optional body]  
+[optional footers]
+
+<types\>:
+- fix
+- feat
+- docs
+- test
+- refactor
+- ci
+
+Rules:  
+1. Separate the subject from the body with a black line
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end thesubject line with a period
+5. Use imperative mood ('add' instead of 'added' or 'adds')
+
+To show the commit logs:
+> $ git log
+
+**IMPORTANT**  
+1 unit of work equals 1 commit.  
+If the commit message contains conjunctions, such as 'and', 'or', etc., it can be divided into two different commits.
+
 ## References
 
 - [Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
